@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "arial"
+}
+
+section{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px red solid;
+}
+
+.logo, .paletaTipografica{
+    width: 45%;
+    border: 2px blue solid;
+}
+
+.sectionTop .logo img{
+    width: 100%;
+}
