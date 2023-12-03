@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/formulario.css">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+<header>
+    <nav class="barraDeNavegacion">
+        <ul>
+          <li><a href="#"><img src="./img/LOGO PNG.png" alt=""></a></li>
+          <li><a href="#">ARTISTAS EMERGENTES</a></li>
+          <li><a href="#">EDITORIALES</a></li>
+          <li><a href="#">JOURNAL</a></li>
+          <li><a href="#">SOBRE NOSOTROS</a></li>
+          <li><a href="#">CONTACTO</a></li>
+        </ul>
+      </nav>
+</header>
+<main>
+    <section class="formulario">
+        <h2>Formulario de contacto</h2>
+        <form action="enviar.php" method="post">
+            <input type="text" name="nombre" placeholder="Nombre">
+            <input type="email" name="correo" placeholder="Correo electrónico">
+            <input type="text" name="asunto" placeholder="Asunto">
+        <textarea name="mensaje" placeholder="Mensaje"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+</main>
+<footer>
+    <p>Copyright © 2023</p>
+  </footer>
+</body>
+</html>

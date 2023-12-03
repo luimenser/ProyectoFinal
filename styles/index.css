@@ -1,0 +1,32 @@
+.entrada {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .entrada img {
+    width: 500px;
+    height: 300px;
+  }
+  
+  .entrada h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .entrada p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .entrada a {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

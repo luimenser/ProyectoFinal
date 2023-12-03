@@ -1,0 +1,24 @@
+.formulario {
+    width: 500px;
+    margin: 0 auto;
+    }
+    
+.formulario h2 {
+    font-size: 2em;
+    font-weight: bold;
+    }
+    
+.formulario input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    }
+    
+    .formulario button {
+        background-color: #000;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    

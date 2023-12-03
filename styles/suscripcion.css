@@ -1,0 +1,24 @@
+.formulario-suscripcion {
+    width: 500px;
+    margin: 0 auto;
+    }
+    
+.formulario-suscripcion h2 {
+    text-align: center;
+    }
+    
+.formulario-suscripcion input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    }
+    
+.formulario-suscripcion button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    

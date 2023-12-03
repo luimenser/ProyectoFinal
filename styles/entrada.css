@@ -1,0 +1,18 @@
+.entrada {
+    margin-top: 20px;
+    }
+
+.entrada h2 {
+    font-size: 2em;
+    font-weight: bold;
+    }
+    
+.entrada p {
+    font-size: 1.5em;
+    }
+    
+.entrada a {
+    text-decoration: none;
+    color: #000;
+    }
+    
